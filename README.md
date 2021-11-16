@@ -16,5 +16,8 @@ lua cgcellulose4PT2.lua
 gmx editconf -f cg-coordinates.gro -o cg-coordinates-newbox.gro -c -d 2.5 -bt triclinic
 gmx solvate -radius 0.21 -cp cg-coordinates-newbox.gro -cs water-box-CG_303K-1bar.gro -o cg-coordinates-solvated.gro -p topol.top
 ```
-
+- Choose MARTINI3 bead type and bonded interation strength
+```
+sed -e "s/ATX1/SP6/g" -e "s/999999/250/g" -i topol.top
+```
 ## Should proceed with minimization, NVT, NPT and MD runs.
