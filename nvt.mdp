@@ -1,0 +1,46 @@
+define                  = -DPOSRESCG1CG2
+
+; RUN CONTROL PARAMETERS
+integrator               = md
+dt                       = 0.001
+nsteps                   = 50000
+
+; OUTPUT CONTROL OPTIONS
+nstxout                  = 0
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 1000
+nstenergy                = 1000
+nstxout-compressed       = 1000
+compressed-x-precision   = 1000
+
+; NEIGHBORSEARCHING PARAMETERS
+cutoff-scheme            = Verlet
+nstlist                  = 100
+pbc                      = xyz
+;verlet-buffer-tolerance  = -1
+;rlist			 = 1.5
+
+; OPTIONS FOR ELECTROSTATICS AND VDW
+coulombtype              = reaction-field 
+rcoulomb                 = 1.1
+epsilon_r                = 15	; 2.5 (with polarizable water)
+epsilon_rf               = 0
+vdw_type                 = cutoff  
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
+
+; Temperature coupling  
+Tcoupl                   = V-rescale
+tc-grps                  = BGLC W
+tau_t                    = 0.1 0.1
+ref_t                    = 300 300
+
+; Pressure coupling     
+Pcoupl                   = no
+
+; GENERATE VELOCITIES FOR STARTUP RUN AND CONSTRAINT
+constraints              = none
+constraint_algorithm     = Lincs
+continuation             = no
+gen_vel                  = yes

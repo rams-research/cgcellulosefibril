@@ -1,0 +1,36 @@
+define                  = -DPOSRESCG1CG2
+
+; Parameters describing what to do, when to stop and what to save
+dt		= 0.01
+integrator	= steep		; Algorithm (steep = steepest descent minimization)
+emtol		= 10.0		; Stop minimization when the maximum force < 1.0 kJ/mol
+nsteps		= 10000000	; Maximum number of (minimization) steps to perform
+energygrps	= System	; Which energy group(s) to write to disk
+
+;comm-mode = com
+
+; OUTPUT CONTROL OPTIONS
+nstxout                  = 10
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 10
+nstenergy                = 10
+nstxout-compressed       = 10
+
+; NEIGHBORSEARCHING PARAMETERS
+cutoff-scheme            = Verlet
+;nstlist                  = 20
+pbc                      = xyz
+verlet-buffer-tolerance  = -1
+rlist                    = 1.5
+
+; OPTIONS FOR ELECTROSTATICS AND VDW
+coulombtype              = reaction-field
+rcoulomb                 = 1.1
+epsilon_r                = 15   ; 2.5 (with polarizable water)
+epsilon_rf               = 0
+vdw_type                 = cutoff
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
+
+
