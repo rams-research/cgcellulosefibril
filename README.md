@@ -7,7 +7,7 @@ Creates coarse grain model of cellulose fibrils using MARTINI3 beads.
 
 ## Author
 
-Copyright (C) 2021 Rodrigo Azevedo Moreira da Silva
+Copyright (C) 2021-2022 Rodrigo Azevedo Moreira da Silva
 
 [IPPT-PAN](http://www.ippt.pan.pl/staff/rams)
 Instytut Podstawowych Problemów Techniki
