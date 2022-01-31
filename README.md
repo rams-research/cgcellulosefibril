@@ -32,7 +32,11 @@ gmx solvate -radius 0.21 -cp cg-coordinates-newbox.gro -cs water-box-CG_303K-1ba
 
 ## Should proceed with minimization, NVT, NPT and MD runs.
 
-Some examples of .mdp files are included.
+Some *examples* of GROMACS .mdp files are included.
+
+- Always double-check the input/output files!
+- We recommend to coarse-grain configuration from a previously all-atom simulation run.
+- The model is been developed, all contributions are welcome!
 
 ## License
 
