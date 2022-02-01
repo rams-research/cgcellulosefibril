@@ -13,6 +13,18 @@ Copyright (C) 2021-2022 Rodrigo Azevedo Moreira da Silva
 Instytut Podstawowych Problemów Techniki
 Polskiej Akademii Nauk
 
+## Reference
+
+
+[![DOI](https://zenodo.org/badge/436968109.svg)](https://zenodo.org/badge/latestdoi/436968109)
+
+
+The original paper describing the methodology 
+
+> Determination of contact maps in proteins: A combination of structural and chemical approaches
+> 
+> [Molecules 2022, 27(3), 976](https://doi.org/10.3390/molecules27030976)
+
 ## Usage
 - Create a new folder with files of this repository.
 - Download cellulose fibril from http://cces-sw.iqm.unicamp.br/cces/admin/cellulose/view;jsessionid= and copy the 'crystal.pdb' to the previously folder.
