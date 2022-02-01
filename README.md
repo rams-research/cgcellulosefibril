@@ -15,13 +15,11 @@ Polskiej Akademii Nauk
 
 ## Reference
 
-
-[![DOI](https://zenodo.org/badge/436968109.svg)](https://zenodo.org/badge/latestdoi/436968109)
-
+[![DOI](https://zenodo.org/badge/428765252.svg)](https://zenodo.org/badge/latestdoi/428765252)
 
 The original paper describing the methodology 
 
-> Determination of contact maps in proteins: A combination of structural and chemical approaches
+> Martini 3 Model of Cellulose Microfibrils: On the Route to Capture Large Conformational Changes of Polysaccharides 
 > 
 > [Molecules 2022, 27(3), 976](https://doi.org/10.3390/molecules27030976)
 
