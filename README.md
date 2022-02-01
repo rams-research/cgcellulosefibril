@@ -1,7 +1,7 @@
 [![Licence](https://img.shields.io/badge/License-CC%20BY%20NC%20SA%204.0-grey.svg?style=for-the-badge)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)](http://www.lua.org)
 
-# CGMODEL
+# CG CELLULOSE FIBRIL
 
 Creates coarse grain model of cellulose fibrils using MARTINI3 beads.
 
