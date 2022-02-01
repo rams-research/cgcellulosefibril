@@ -19,8 +19,7 @@ Polskiej Akademii Nauk
 
 The original paper describing the methodology 
 
-> Martini 3 Model of Cellulose Microfibrils: On the Route to Capture Large Conformational Changes of Polysaccharides 
-> 
+> Moreira RA, Weber SAL, Poma AB. Martini 3 Model of Cellulose Microfibrils: On the Route to Capture Large Conformational Changes of Polysaccharides. Molecules. 2022; 27(3):976. 
 > [Molecules 2022, 27(3), 976](https://doi.org/10.3390/molecules27030976)
 
 ## Usage
